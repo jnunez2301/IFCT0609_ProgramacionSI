@@ -11,7 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Octubre_10_2023-Variables" />
   </component>
   <component name="ProjectId" id="2Wa48wS8DIdCaahplA0aJwoZIIF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -21,7 +21,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Roxc/Documents/Git/IFCT0609_ProgramacionSI/Octubre_10_2023-Variables"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -45,7 +46,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696957328211</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="asd">
+      <created>1697030729473</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1697030729473</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
