@@ -34,12 +34,12 @@ public class ForLoop {
 
         //4.	Diseñar un programa que muestre el producto de los 10 primeros números impares
 
-//        System.out.println("Ingrese un número");
-//        for(int i = 0; i <= 10; i++){
-//            if(i % 2 != 0){
-//                System.out.println(i);
-//            }
-//        }
+      /*System.out.println("Ingrese un número");
+      for(int i = 0; i <= 10; i++){
+          if(i % 2 != 0){
+              System.out.println(i * i);
+          }
+       }*/
         //5.Pedir 10 números. Mostrar la media de los números positivos, la media de los números negativos y la cantidad de ceros.
 
 //
@@ -105,12 +105,15 @@ public class ForLoop {
             System.out.println("Inserte una edad");
             edad = scanner.nextInt();
             totalEdad += edad;
+
             System.out.println("Inserte una altura en cm");
             altura = scanner.nextInt();
             totalAltura += altura;
+
             if(edad > 18){
                 mayor18++;
-            }else if(altura > 175){
+            }
+            if(altura > 175){
                 mideMas175++;
             }
         }
@@ -121,7 +124,6 @@ public class ForLoop {
 
         mediaAltura = totalAltura / 5;
         System.out.println("La media de altura es -> " + mediaAltura);
-
 
     }
 }
