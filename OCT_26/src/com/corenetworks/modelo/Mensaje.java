@@ -18,6 +18,7 @@ public class Mensaje {
         this.ipDestino = ipDestino;
     }
     //Getters
+
     public String getSaludo(){
         return saludo;
     }
