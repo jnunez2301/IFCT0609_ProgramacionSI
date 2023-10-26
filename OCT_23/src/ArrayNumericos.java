@@ -6,16 +6,13 @@ public class ArrayNumericos {
         //Pone r los valores desde código
         //Obtener el número más pequeño
         Scanner sc = new Scanner(System.in);
-        int[] numeros = new int[5];
-        int numeroPequeno = numeros[0];
+        char[] vocales = {'a','e','i','o','u'};
+        String palabra;
+        System.out.println("Ingrese una palabra");
+        palabra = sc.next();
         for(int i = 0; i < numeros.length; i++){
-            System.out.println("ingrese un numero");
-            numeros[i] = sc.nextInt();
 
-            if(numeroPequeno > numeros[i]){
-                numeroPequeno = numeros[i];
-            }
+            System.out.println(palabra.charAt(i));
         }
-        System.out.println("El numero más pequeño es -> " + numeroPequeno);
     }
 }
