@@ -5,6 +5,7 @@ import com.corenetworks.modelo.Pedido;
 import java.util.Scanner;
 
 public class probarPedido {
+    //Capa de presentación "VIEW"
     public static void main(String[] args) {
         Pedido p = new Pedido();
         Scanner sc = new Scanner(System.in);

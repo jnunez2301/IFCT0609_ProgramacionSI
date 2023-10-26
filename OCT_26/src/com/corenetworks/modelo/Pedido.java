@@ -44,7 +44,7 @@ public class Pedido {
         return "\n ID PEDIDO: " + idPedido
                 + "\n IMPORTE: " + importe + " €"
                 + "\n FORMADE PAGO: " + getFormaPago()
-                + "\n IVA " + IVA + " %"
+                + "\n IVA " + (calcularIVA() - importe) + " €"
                 + "\n TOTAL: " + calcularIVA()
                 ;
     }
