@@ -28,11 +28,14 @@ public class Mensaje {
         return ipDestino;
     }
     public int calcularNumeroPalabras(){
+
         String[] arr = saludo.trim().split(" ");
         String joinedString = String.join("", arr);
         return joinedString.length();
+
     }
     public String mostrarInfo(){
+
         return "\n Saludo: " + saludo
                 + "\n ipOrigen: " + ipOrigen
                 + "\n ipDestino: " + ipDestino
