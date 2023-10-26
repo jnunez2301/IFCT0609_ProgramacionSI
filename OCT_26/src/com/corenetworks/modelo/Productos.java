@@ -4,12 +4,9 @@ public class Productos {
     //Atributos
 
     //Los atributos siempre deben ser declarados como privados
-
     private int idProducto;
     private String nombre;
-
     private int cantidadExistencias;
-
     private int telefono;
     private int cantidadEmpleados;
 
