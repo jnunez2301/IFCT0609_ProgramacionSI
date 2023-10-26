@@ -3,6 +3,24 @@ package com.corenetworks.modelo;
 import java.lang.reflect.Array;
 
 public class Mensaje {
+
+    //Constructor
+    //public/private NOMBRE_CLASE(parametro){ ...CONTENIDO }
+    //SIEMPRE DECLARAR UN CONSTRUCTOR VACIÓ PARA FRAMEWORKS
+    public Mensaje(){}
+    public Mensaje(String saludo, String ipOrigen, String ipDestino){
+        this.saludo = saludo;
+        this.ipOrigen = ipOrigen;
+        this.ipDestino = ipDestino;
+    }
+    /*
+    Y se usaria como
+    Mensaje msj = new Mensaje("dato", "otro_dato");
+    Por lo tanto nos ahorramos un setter
+    * */
+
+
+
     //Atributos
     private String saludo;
     private String ipOrigen;
