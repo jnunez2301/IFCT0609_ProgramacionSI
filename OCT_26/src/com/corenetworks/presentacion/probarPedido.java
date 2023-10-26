@@ -14,14 +14,10 @@ public class probarPedido {
         p.setFormaPago(sc.next().charAt(0));
         System.out.println("Importe del pedido");
         p.setImporte(sc.nextInt());
+        System.out.println("Inserte el porcentaje de IVA");
+        p.setIVA(sc.nextDouble());
 
-        System.out.println(
-                "\n FACTURA Nº" + p.getIdPedido()
-                        + "\n IMPORTE " + p.getImporte()+ " €"
-                        + "\n FORMA DE PAGO " + p.getFormaPago()
-                        + "\n IVA " + p.getIVA() + " €"
-                        + "\n TOTAL " + (p.getImporte() + p.getIVA())
-        );
+        System.out.println(p.mostrarInfo());
         sc.close();
     }
 }
