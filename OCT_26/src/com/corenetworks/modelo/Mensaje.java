@@ -30,8 +30,7 @@ public class Mensaje {
     public int calcularNumeroPalabras(){
 
         String[] arr = saludo.trim().split(" ");
-        String joinedString = String.join("", arr);
-        return joinedString.length();
+        return arr.length;
 
     }
     public String mostrarInfo(){
