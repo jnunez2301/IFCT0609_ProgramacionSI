@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e701cc91-b603-4b2b-b0af-17813ba1b565" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/IFCT0609_ProgramacionSI.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCT_11/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCT_11/OCT_11.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCT_11/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCT_16/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCT_16/OCT_16.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCT_16/src/Ejercicio_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCT_16/src/Ejercicio_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCT_16/src/Ejercicio_3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCT_16/src/Ejercicio_4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCT_16/src/Ejercicio_5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCT_16/src/Ejercicio_6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCT_16/src/Ejercicio_7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCT_16/src/Ejercicio_8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCT_16/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCT_17/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCT_17/OCT_17.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCT_17/src/CondicionalSwitch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCT_17/src/Ejercicio_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCT_17/src/Ejercicio_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCT_17/src/Ejercicio_3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCT_17/src/EntradaDatos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCT_17/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCT_18/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCT_18/OCT_18.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCT_18/src/ForLoop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCT_18/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCT_19/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCT_19/OCT_19.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCT_19/src/Ejercicio_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCT_19/src/Ejercicio_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCT_19/src/Ejercicio_3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCT_19/src/Ejercicio_4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCT_19/src/Ejercicio_5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCT_19/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCT_23/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCT_23/OCT_23.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCT_23/src/ArrayNumericos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCT_23/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCT_24/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCT_24/OCT_24.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCT_24/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCT_26/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCT_26/OCT_26.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCT_26/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCT_26/src/com/corenetworks/modelo/Mensaje.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCT_26/src/com/corenetworks/modelo/Pedido.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCT_26/src/com/corenetworks/modelo/Productos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCT_26/src/com/corenetworks/modelo/Proveedor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCT_26/src/com/corenetworks/presentacion/probarMensaje.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCT_26/src/com/corenetworks/presentacion/probarPedido.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCT_26/src/com/corenetworks/presentacion/probarProducto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OCT_26/src/com/corenetworks/presentacion/probarProveedor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OCT_16/Ejercicio_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OCT_16/Ejercicio_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OCT_16/Ejercicio_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OCT_16/Ejercicio_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OCT_16/Ejercicio_5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OCT_16/Ejercicio_6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OCT_16/Ejercicio_7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OCT_16/Ejercicio_8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OCT_16/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OCT_17/CondicionalSwitch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OCT_17/Ejercicio_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OCT_17/Ejercicio_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OCT_17/Ejercicio_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OCT_17/EntradaDatos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OCT_17/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OCT_19/Ejercicio_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OCT_19/Ejercicio_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OCT_19/Ejercicio_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OCT_19/Ejercicio_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OCT_19/Ejercicio_5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OCT_19/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OCT_23/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OCT_24/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OCT_26/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OCT_26/com/corenetworks/modelo/Mensaje.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OCT_26/com/corenetworks/modelo/Pedido.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OCT_26/com/corenetworks/modelo/Productos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OCT_26/com/corenetworks/modelo/Proveedor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OCT_26/com/corenetworks/presentacion/probarMensaje.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OCT_26/com/corenetworks/presentacion/probarPedido.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OCT_26/com/corenetworks/presentacion/probarProducto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OCT_26/com/corenetworks/presentacion/probarProveedor.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2XUFKuuD9WbJXqVjLhPFYcbtXMU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e701cc91-b603-4b2b-b0af-17813ba1b565" name="Changes" comment="" />
+      <created>1698675691299</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698675691299</updated>
+    </task>
+    <servers />
+  </component>
+</project>
