@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e3b390c-8284-419e-908a-e134337c90af" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Modulo_1/Octubre/OCT_11/OCT_11.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modulo_1/Octubre/OCT_16/OCT_16.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modulo_1/Octubre/OCT_17/OCT_17.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modulo_1/Octubre/OCT_18/OCT_18.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modulo_1/Octubre/OCT_19/OCT_19.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modulo_1/Octubre/OCT_23/OCT_23.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modulo_1/Octubre/OCT_24/OCT_24.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modulo_1/Octubre/OCT_26/OCT_26.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modulo_1/Octubre/OCT_27/OCT_27.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Modulo_1/POO/POO.iml" beforeDir="false" />
-    </list>
+    <list default="true" id="7e3b390c-8284-419e-908a-e134337c90af" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +22,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
     "last_opened_file_path": "C:/Users/Roxc/Documents/GitHub/IFCT0609_ProgramacionSI/Modulo_1/EXAMEN_NOV_03"
   }
 }]]></component>
