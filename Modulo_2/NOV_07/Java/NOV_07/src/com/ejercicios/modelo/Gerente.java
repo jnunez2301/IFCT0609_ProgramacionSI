@@ -20,4 +20,13 @@ public class Gerente extends Empleado{
     public void setBono(double bono) {
         this.bono = bono;
     }
+
+    @Override
+    public String toString() {
+        return "Gerente{" +
+                "bono=" + bono +
+                ", nombre='" + nombre + '\'' +
+                ", sueldo=" + sueldo +
+                '}';
+    }
 }
