@@ -12,6 +12,7 @@
             display: flex;
             flex-direction: column;
             width: 370px;
+            gap: 5px;
             align-items: center;
             box-shadow: 5px 5px 15px 1px rgba(0,0,0, 0.2);
             border-radius: 5px;
@@ -20,9 +21,6 @@
         }
         form h1{
             font-size: 24px;
-        }
-        label{
-            margin-bottom: 1rem;
         }
         input[type="text"], input[type="password"]{
             border: none;
@@ -44,6 +42,10 @@
             background-color: rgb(132, 93, 69);
             color: #f2f2f2;
         }
+        td{
+            padding: .5rem;
+            border: 1px solid rgba(0,0,0, 0.2);
+        }
     </style>
 </head>
 <body>
@@ -52,10 +54,13 @@
      action="mailto:ggp@gmail.com" method="get">
         <h1>Formularios</h1>
         <label for="nombre">Nombre</label>
-        <input type="text" name="nombre" placeholder="Escriba su nombre"/>
+        <input type="text" name="nombre" 
+        id="nombre"
+        placeholder="Escriba su nombre"/>
 
         <label for="password">Contraseña</label>
-        <input 
+        <input
+        id="password" 
         type="password"
          name="password"
          placeholder="Escriba su contraseña">
@@ -75,11 +80,92 @@
             <input type="checkbox"
             name="idiomas" value="español">Español
         </div>
+        <div>
+            <label for="comunidad-select">Comunidad en la que realizó sus estudios</label>
+            <select name="comunidad" id="cuminidad-select">
+                <option value="madrid">Comunidad de Madrid</option>
+                <option value="andalucia">Andalucia</option>
+                <option value="murcia">Murcia</option>
+                <option 
+                value="valencia">Valencia</option>
+            </select>
+        </div>
        <div>
         <button type="submit">Enviar</button>
         <button type="reset">Limpiar Datos</button>
         
        </div>
     </form>
+    <br>
+    <form action="index.html" method="get">
+        <h2>Formulario con tablas</h2>
+        <table>
+            <tr>
+                <td><label for="nombre">Nombre</label></td>
+                <td><input type="text" name="nombre" placeholder="escriba su nombre"/></td>
+            </tr>
+            <tr>
+                <td><label for="constrasena">Constraseña</label></td>
+                <td><input type="password" placeholder="Escriba contraseña"/></td>
+            </tr>
+            <tr>
+                <td><label for="genero">Genero:</label></td>
+                <td><input type="radio" name="genero" value="M"> Mujer
+        <input type="radio" name="genero" value="H"> Hombre</td>
+            </tr>
+            <tr>
+                <td><label for="idiomas" >Idiomas:</label></td>
+                <td><input type="checkbox" name="idiomas" value="I">Inglés
+        <input type="checkbox" name="idiomas" value="F">Francés
+        <input type="checkbox" name="idiomas" value="E">Español</td>
+            </tr>
+            <tr>
+                <td colspan="2"><button type="submit" >Enviar  <button type="reset">Limpiar datos </td>               
+            </tr>
+        </table>
+
+    </form>
+    <form
+    action="index.html" method="get">
+       <h1>Formularios</h1>
+       <label for="nombre">Nombre</label>
+       <input type="text" name="nombre" placeholder="Escriba su nombre"/>
+
+       <label for="password">Contraseña</label>
+       <input 
+       type="password"
+        name="password"
+        placeholder="Escriba su contraseña">
+       <div>
+           <label for="genero">Genero</label>
+           <br>
+           <input type="radio" name="genero" value="masculino">Masculino
+          <input type="radio" name="genero" value="femenino">Femenino
+       </div>
+       <div>
+           <label for="lenguajes">Lenguajes que programa</label>
+           <br>
+           <input type="checkbox" name="lenguajes" value="html">HTML
+           <input type="checkbox"
+           name="lenguajes" value="Java">Java
+           <input type="checkbox"
+           name="lenguajes" value="sql">SQL
+       </div>
+       <div>
+           <label for="comunidad-select">Comunidad en la que realizó sus estudios</label>
+           <select name="comunidad" id="cuminidad-select">
+               <option value="madrid">Comunidad de Madrid</option>
+               <option value="andalucia">Andalucia</option>
+               <option value="murcia">Murcia</option>
+               <option 
+               value="valencia">Valencia</option>
+           </select>
+       </div>
+      <div>
+       <button type="submit">Enviar</button>
+       <button type="reset">Limpiar Datos</button>
+       
+      </div>
+   </form>
 </body>
 </html>
