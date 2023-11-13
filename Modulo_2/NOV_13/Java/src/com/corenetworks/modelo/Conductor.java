@@ -1,36 +1,23 @@
 package com.corenetworks.modelo;
 
-public class Conductor implements IVehiculo{
-    private IVehiculo vehiculo;
+public class Conductor{
+    private IVehiculo v1;
     public String conducir(){
-        return vehiculo.moverse();
+        return v1.moverse();
     }
 
-    @Override
-    public String toString() {
-        return "Conductor{" +
-                "vehiculo=" + vehiculo +
-                '}';
-    }
-
-    @Override
-    public String moverse() {
-        return "Conductor moviendose";
-    }
     public Conductor() {
     }
 
-    public Conductor(IVehiculo vehiculo) {
-        this.vehiculo = vehiculo;
+    public Conductor(IVehiculo v1) {
+        this.v1 = v1;
     }
 
-    public IVehiculo getVehiculo() {
-        return vehiculo;
+    public IVehiculo getV1() {
+        return v1;
     }
 
-    public void setVehiculo(IVehiculo vehiculo) {
-        this.vehiculo = vehiculo;
+    public void setV1(IVehiculo v1) {
+        this.v1 = v1;
     }
-
-
 }

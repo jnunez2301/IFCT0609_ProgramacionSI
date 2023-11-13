@@ -5,7 +5,13 @@ public class Coche1 implements IVehiculo{
 
     public Coche1() {
     }
-
+    @Override
+    public String moverse() {
+        if(deposito <= 0){
+            return "----SIN GASOLINA---" + "\nPor favor llene el deposito";
+        }
+        return "Coche moviendose";
+    }
     @Override
     public String toString() {
         return "Coche1{" +
@@ -25,11 +31,5 @@ public class Coche1 implements IVehiculo{
         this.deposito = deposito;
     }
 
-    @Override
-    public String moverse() {
-        if(deposito <= 0){
-            return "Por favor llene el deposito";
-        }
-        return "Coche a punto de moverse";
-    }
+
 }
