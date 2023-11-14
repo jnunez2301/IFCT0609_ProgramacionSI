@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario NOV_14</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            padding: 1rem;
+        }
+        textarea{
+            resize: none;
+        }
+        
+    </style>
+</head>
+<body>
+    <form method="get">
+        <h2>Formulario</h2>
+            <tr>
+                <td>
+                    <label for="nombre">Escribe tu nombre:</label>
+                </td>
+                <br>
+                <td>
+                    <input type="text"
+                    id="nombre"
+                    name="nombre"
+                    placeholder="Escriba su nombre">
+                </td>
+            </tr>
+            <tr>
+                <br>
+                <td>
+                    <label for="apellido">Escribe tu apellido:</label>
+                </td>
+                <br>
+                <td>
+                    <input type="text"
+                    id="apellido"
+                    name="apellido"
+                     placeholder="Escriba su apellido">
+                </td>
+            </tr>
+            <tr>
+                <br>
+                <td>
+                    <label for="email">Escribe tu email</label>
+                </td>
+                <br>
+                <td>
+                    <input type="email" name="email" id="email"
+                    placeholder="mail@mail.com">
+                </td>
+            </tr>
+            <br>
+            <tr>
+                <td>¿Qué valoración le das a la publicación?</td>
+                <br>
+                <td>
+                    <input type="radio" name="valoracion" value="0"> 0
+                    <input type="radio" name="valoracion" value="1"> 1
+                    <input type="radio" name="valoracion" value="2"> 2 
+                    <input type="radio" name="valoracion" value="3"> 3
+                    <input type="radio" name="valoracion" value="4"> 4
+                    <input type="radio" name="valoracion" value="5"> 5
+                </td>
+            </tr>
+            <tr>
+                <br>
+                <td>¿Qué asignaturas has estudiadio?</td>
+                <br>
+                <td>
+                    <label for="html">html</label>
+                    <input type="checkbox" name="html" id="html">
+                    <label for="css">css</label>
+                    <input type="checkbox" name="css" id="css">
+                    <label for="javascript">javascript</label>
+                    <input type="checkbox" name="javascript" id="javascript">
+                </td>
+            </tr>
+            <br>
+            <tr>
+                <td>Selecciona tu alineación ideal</td>
+                <br>
+                <td>
+                    <select name="jugador" id="jugador">
+                        <option value="" selected disabled>--selecciona un jugador--</option>
+                        <option value="cristiano">Cristiano</option>
+                        <option value="messi">Messi</option>
+                        <option value="sergio_ramos">Sergio Ramos</option>
+                        <option value="shevchenko">Shevchenko</option>
+                    </select>
+                </td>
+            </tr>
+            <br>
+            <tr>
+                <td>¿Qué mejorarías de este curso?</td>
+                <br>
+                <td>
+                    <textarea name="curso" id="curso" cols="30" rows="10"></textarea>
+                </td>
+                <br>
+                <td>
+                    <input type="submit" value="Submit">
+                </td>
+            </tr>
+    </form>
+</body>
+</html>
