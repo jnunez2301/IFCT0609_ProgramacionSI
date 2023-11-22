@@ -36,5 +36,10 @@ public class Main {
         definiciones.add("Agrupación de peces");
         diccionario.put(palabra, definiciones);
         System.out.println(diccionario.entrySet());
+        definiciones.clear();
+        definiciones.add("Método informático en el que se realiza un bucle en lenguajes de programación");
+        definiciones.add("Objeto dibujado comunmente en papel para orientarse");
+        diccionario.put("Map", definiciones);
+        System.out.println(diccionario.entrySet());
     }
 }
