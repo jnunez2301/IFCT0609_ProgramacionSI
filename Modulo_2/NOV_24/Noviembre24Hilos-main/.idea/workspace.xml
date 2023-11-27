@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="57e6a64d-cf80-488d-b1a0-b843eda0945f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Noviembre24Hilos.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/corenetworks/com/corenetworks/ejemplo2/modelo/Ratones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/corenetworks/ejemplo1/modelo/Contador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/corenetworks/ejemplo1/presentacion/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/corenetworks/ejemplo2/presentacion/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/corenetworks/ejemplo3/modelo/Impresora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/corenetworks/ejemplo3/modelo/TareaImpresion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/corenetworks/ejemplo3/presentacion/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/corenetworks/ejemplo4/modelo/Compartido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/corenetworks/ejemplo4/modelo/TareaEspera.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/corenetworks/ejemplo4/presentacion/ProbarWaitNotify.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2Yauq48cHPo4vqM3GAMundAumEs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ggp20/Documents/Cursos2023/IFCD0609-CoreNetworks/Noviembre23Repaso&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ggp20\Documents\Cursos2023\IFCD0609-CoreNetworks\Noviembre24Hilos\src\com\corenetworks\com\corenetworks\ejemplo2\modelo" />
+      <recent name="C:\Users\ggp20\Documents\Cursos2023\IFCD0609-CoreNetworks\Noviembre24Hilos\src\com\corenetworks\modelo" />
+      <recent name="C:\Users\ggp20\Documents\Cursos2023\IFCD0609-CoreNetworks\Noviembre24Hilos\src\com\corenetworks\presentacion" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ggp20\Documents\Cursos2023\IFCD0609-CoreNetworks\Noviembre24Hilos\src\com\corenetworks\ejemplo2\presentacion" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ProbarWaitNotify">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.corenetworks.presentacion.Main" />
+      <module name="Noviembre24Hilos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.corenetworks.presentacion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProbarWaitNotify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.corenetworks.ejemplo4.presentacion.ProbarWaitNotify" />
+      <module name="Noviembre24Hilos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.corenetworks.ejemplo4.presentacion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.corenetworks.ejemplo1.presentacion.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.corenetworks.ejemplo1.presentacion.Main" />
+      <module name="Noviembre24Hilos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.corenetworks.ejemplo1.presentacion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.corenetworks.ejemplo2.presentacion.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.corenetworks.ejemplo2.presentacion.Main" />
+      <module name="Noviembre24Hilos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.corenetworks.ejemplo2.presentacion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.corenetworks.ejemplo3.presentacion.main" />
+      <module name="Noviembre24Hilos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.corenetworks.ejemplo3.presentacion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ProbarWaitNotify" />
+        <item itemvalue="Application.com.corenetworks.ejemplo2.presentacion.Main" />
+        <item itemvalue="Application.com.corenetworks.ejemplo1.presentacion.Main" />
+        <item itemvalue="Application.main" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="57e6a64d-cf80-488d-b1a0-b843eda0945f" name="Changes" comment="" />
+      <created>1700776213257</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700776213257</updated>
+    </task>
+    <servers />
+  </component>
+</project>
