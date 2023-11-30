@@ -4,13 +4,13 @@ public class Dado {
     private double aletorio = Math.ceil(Math.random() * 6);
     private String dibujarUno = "*";
     private String dibujarDos = "* *";
-    private String dibujarTres = "*\n * *";
-    private String dibujarCuatro = "* *\n * *";
-    private String dibujarCinco = "* *\n * \n * *";
-    private String dibujarSeis = "* * *\n * * *";
+    private String dibujarTres = " *\n* *";
+    private String dibujarCuatro = "* *\n* *";
+    private String dibujarCinco = "* *\n * \n* *";
+    private String dibujarSeis = "* * *\n* * *";
 
-    public Dado() {
-    }
+
+    public Dado() {}
     public String lanzar(){
         String dadoLanzado = "";
         switch ((int) aletorio){
@@ -35,14 +35,6 @@ public class Dado {
         }
         return dadoLanzado;
     }
-    public double getAletorio() {
-        return aletorio;
-    }
-
-    public void setAletorio(double aletorio) {
-        this.aletorio = aletorio;
-    }
-
     public String getDibujarUno() {
         return dibujarUno;
     }

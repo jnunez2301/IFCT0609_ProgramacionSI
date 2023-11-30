@@ -47,5 +47,6 @@ public class Ejercicio3 {
                 System.out.println("Por favor ingrese un valor entre el 1 al 8");
                 break;
         }
+        sc.close();
     }
 }
