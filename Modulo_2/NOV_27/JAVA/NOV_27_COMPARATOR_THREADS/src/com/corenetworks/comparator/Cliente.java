@@ -22,4 +22,10 @@ public class Cliente implements Comparable{
         }
         return  resultado;
     }
+
+    public Cliente(String nombre, double cifraVentas, String nif) {
+        this.nombre = nombre;
+        this.cifraVentas = cifraVentas;
+        this.nif = nif;
+    }
 }
