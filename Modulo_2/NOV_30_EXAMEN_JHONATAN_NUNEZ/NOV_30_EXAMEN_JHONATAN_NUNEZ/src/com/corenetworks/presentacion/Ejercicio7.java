@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Ejercicio7 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String cadena = "";
+        String cadena;
         System.out.println(new Dado().lanzar());
         while(true){
             System.out.println("Quiere continuar s/n");
