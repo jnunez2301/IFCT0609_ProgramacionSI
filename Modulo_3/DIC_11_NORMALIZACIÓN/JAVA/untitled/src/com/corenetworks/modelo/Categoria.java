@@ -26,11 +26,13 @@ public class Categoria {
         return category_id;
     }
 
+
     @Override
     public String toString() {
         return "Categoria{" +
                 "category_id=" + category_id +
                 ", category_name='" + category_name + '\'' +
+                ", category_description='" + category_description + '\'' +
                 '}';
     }
 
