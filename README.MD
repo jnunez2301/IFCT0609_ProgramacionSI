@@ -1,6 +1,6 @@
 # CURSO IFCT0609 PROGRAMACIÓN DE SISTEMAS INFORMÁTICOS
 
-Aquí subiré todos los ejercicios y proyectos del curso.
+Ejercicios, teoría y examenes del curso Programación de Sistemas Informáticos IFTC0609
 
 [Modulo 1 - Introducción a Java](/Modulo_1/)
 
