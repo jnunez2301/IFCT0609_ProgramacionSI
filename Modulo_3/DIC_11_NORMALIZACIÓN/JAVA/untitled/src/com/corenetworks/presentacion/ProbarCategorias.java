@@ -1,6 +1,7 @@
 package com.corenetworks.presentacion;
 
 import com.corenetworks.modelo.Categoria;
+import netscape.javascript.JSObject;
 
 import java.util.ArrayList;
 

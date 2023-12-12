@@ -37,7 +37,7 @@ SELECT AVG(unit_price) as promedio, max(unit_price) as maximo, min(unit_price) a
 --Obtener la cantidad promedio, maximo y minimo de order_details
 SELECT AVG(quantity) as promedio, max(quantity) as maximo, min(quantity) as minimo FROM order_details;
 -- OBTENER UNIDADES EN STOCK DE PRODUCTOS
-SELECT SUM(units_in_stock) FROM products;
+SELECT SUM(units_in_stock) AS unidades FROM products;
 
 
 
