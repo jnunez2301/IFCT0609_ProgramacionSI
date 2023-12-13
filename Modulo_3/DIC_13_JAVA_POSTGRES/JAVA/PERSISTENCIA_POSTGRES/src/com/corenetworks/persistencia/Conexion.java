@@ -6,9 +6,7 @@ import java.sql.SQLException;
 
 public class Conexion {
     protected Connection miConexion;
-
-    public Conexion() {}
-
+    public Conexion(){}
     public void abrirConexion() throws ClassNotFoundException, SQLException {
         Class.forName("org.postgresql.Driver");
         miConexion = DriverManager.getConnection(

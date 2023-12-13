@@ -4,6 +4,12 @@ Se sigue este tutorial para crear la conexión
 
 [Postgres con Java](https://codigoxules.org/conectar-postgresql-utilizando-driver-jdbc-java-postgresql-jdbc/#establecemos-conexion-generica)
 
+## Si no te acuerdas de la contraseña de tu BD
+
+Ejecutar en la BD postgres
+
+```ALTER USER postgres WITH PASSWORD 'postgres'```
+
 ## Pasos iniciales
 
 Al abrir un nuevo proyecto se debe crear un paquete con 3 capas
@@ -66,5 +72,4 @@ public class ProbarConexion {
         }
     }
 }
-
 ```
