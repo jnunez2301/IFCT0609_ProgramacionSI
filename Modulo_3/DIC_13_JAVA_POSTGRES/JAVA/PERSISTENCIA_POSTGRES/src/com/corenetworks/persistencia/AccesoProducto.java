@@ -48,4 +48,26 @@ public class AccesoProducto extends Conexion{
         }
         return productos;
     }
+    public List<Producto> unitPriceGreaterThanFifty() throws SQLException, ClassNotFoundException {
+        // Abrir conexión
+        Statement sentencia;
+        ResultSet resultado;
+        String sql = "SELECT product_id, product_name, unit_price, units_in_stock FROM products WHERE unit_price > 50";
+        abrirConexion();
+        List<Producto> productos = new ArrayList<>();
+        sentencia = miConexion.createStatement();
+        resultado = sentencia.executeQuery(sql);
+
+        // En este caso hace bucle con todas las filas de la query
+        while(resultado.next()){
+            productos.add(new Producto(
+                    resultado.getInt("product_id"),
+                    resultado.getString("product_name"),
+                    resultado.getDouble("unit_price"),
+                    resultado.getInt("units_in_stock")
+            ));
+        }
+        return productos;
+    }
+
 }

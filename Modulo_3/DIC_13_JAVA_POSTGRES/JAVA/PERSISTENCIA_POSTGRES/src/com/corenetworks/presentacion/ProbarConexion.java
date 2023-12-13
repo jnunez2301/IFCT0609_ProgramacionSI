@@ -20,8 +20,10 @@ public class ProbarConexion {
         }*/
         AccesoProducto aP1 = new AccesoProducto();
         try{
-            System.out.println(aP1.obtener1(5));
+            // System.out.println(aP1.obtener1(5));
             System.out.println(aP1.obtenerTodos());
+            System.out.println(aP1.obtenerTodos().size());
+            System.out.println(aP1.unitPriceGreaterThanFifty());
         }catch (SQLException | ClassNotFoundException e){
             System.out.println(e.toString());
         }

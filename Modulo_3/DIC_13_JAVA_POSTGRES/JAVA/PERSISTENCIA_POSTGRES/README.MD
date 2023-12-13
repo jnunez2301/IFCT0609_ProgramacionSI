@@ -1,6 +1,6 @@
 # CONECTAR CON POSTGRESQL UTILIZANDO EL DRIVER JDBC – JAVA POSTGRESQL JDBC
-
-Se sigue este tutorial para crear la conexión
+ 
+JDBC- JAVA DATA BASE CONNECTION
 
 [Postgres con Java](https://codigoxules.org/conectar-postgresql-utilizando-driver-jdbc-java-postgresql-jdbc/#establecemos-conexion-generica)
 
