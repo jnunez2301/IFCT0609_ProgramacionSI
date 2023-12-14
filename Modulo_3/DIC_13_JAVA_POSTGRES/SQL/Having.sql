@@ -78,6 +78,6 @@ SUM(quantity * unit_price) as ventas,
 product_id
 FROM order_details
 GROUP BY product_id
-HAVING SUM(quantity * unit_price) > 50
+HAVING SUM(quantity * unit_price) > 50000
 ORDER BY product_id;
 
