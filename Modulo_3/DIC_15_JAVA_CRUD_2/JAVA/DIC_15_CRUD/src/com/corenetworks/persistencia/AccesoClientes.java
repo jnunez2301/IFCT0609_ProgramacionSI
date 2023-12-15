@@ -39,13 +39,15 @@ public class AccesoClientes extends Conexion{
 
         resultado = sentencia.executeQuery();
 
-        resultado.next();
+        if(resultado.next()){
 
-        return  new Clientes(
-                resultado.getString("customer_id"),
-                resultado.getString("company_name"),
-                resultado.getString("contact_name")
-        );
+            return  new Clientes(
+                    resultado.getString("customer_id"),
+                    resultado.getString("company_name"),
+                    resultado.getString("contact_name")
+            );
+        }
+        return null;
     }
     public boolean insertarUno(Clientes c1) throws SQLException, ClassNotFoundException {
         PreparedStatement sentencia;

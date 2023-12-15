@@ -16,11 +16,11 @@ public class ProbarClientes {
             // Obtener uno
             // System.out.println(ac1.obtenerUno("ANTON"));
             // Insertar uno
-            System.out.println(ac1.insertarUno(c1));
+            // System.out.println(ac1.insertarUno(c1));
             // Eliminar uno
             //System.out.println(ac1.eliminarUno("ANDOR"));
             // Actualizar nombre
-            System.out.println(ac1.actualizarNombre(c2));
+            // System.out.println(ac1.actualizarNombre(c2));
         } catch (SQLException | ClassNotFoundException e) {
             throw new RuntimeException(e);
         }
