@@ -17,6 +17,7 @@ public class AccesoClientes extends Conexion{
         List<Clientes> c1 = new ArrayList<>();
 
         abrirConexion();
+
         sentencia = miConexion.createStatement();
         resultado = sentencia.executeQuery(sql);
         while(resultado.next()){
