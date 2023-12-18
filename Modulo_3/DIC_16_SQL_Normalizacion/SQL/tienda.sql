@@ -84,5 +84,10 @@ CREATE TABLE pedidos(
 DROP TABLE IF EXISTS detalles_pedido CASCADE;
 
 CREATE TABLE detalles_pedido(
-	
+	id_pedido INTEGER,
+	id_consecutivo INTEGER,
+	cantidad INTEGER,
+	isbn CHAR(20) NOT NULL,
+	CONSTRAINT PK_id_pedido_consecutivo PRIMARY KEY(id_pedido, id_consecutivo),
+	CONSTRAINT FK_detalles_pedido_pedidos FOREIGN KEY (id_pedido) REFERENCES pedidos(id_pedido)
 );
