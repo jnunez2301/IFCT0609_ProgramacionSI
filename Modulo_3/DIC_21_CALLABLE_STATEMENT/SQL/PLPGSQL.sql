@@ -22,4 +22,46 @@ begin
 END
 $$ LANGUAGE 'plpgsql';
 
+-- Probamos la función
 SELECT nombre_producto(10);
+
+--CRUD
+
+SELECT * FROM categories;
+
+-- INSERT
+
+INSERT INTO categories(category_id, category_name)
+VALUES(100, 'testing');
+
+-- INSERT
+CREATE OR REPLACE FUNCTION add_category(category_id integer, category_name varchar(15))
+	RETURNS TEXT AS $$
+DECLARE 
+	
+BEGIN
+	INSERT INTO categories(category_id, category_name)
+	VALUES(category_id, category_name);
+	RETURN CONCAT(category_name, ' insertada');
+END
+$$ LANGUAGE 'plpgsql';
+
+SELECT add_category(100, 'funcion');
+
+-- COMPROBAMOS
+SELECT * FROM categories;
+
+-- DELETE
+CREATE OR REPLACE FUNCTION delete_category(c_id integer)
+	RETURNS TEXT AS $$
+DECLARE 
+	
+BEGIN
+	DELETE FROM categories WHERE category_id = c_id;
+	RETURN 'eliminado';
+END
+$$ LANGUAGE 'plpgsql';
+
+SELECT delete_category(100);
+-- COMPROBAMOS
+SELECT * FROM categories;

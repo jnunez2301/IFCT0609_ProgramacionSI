@@ -36,4 +36,5 @@ public class AccesoFunciones extends Conexion{
         }
         return resultado;
     }
+    
 }
