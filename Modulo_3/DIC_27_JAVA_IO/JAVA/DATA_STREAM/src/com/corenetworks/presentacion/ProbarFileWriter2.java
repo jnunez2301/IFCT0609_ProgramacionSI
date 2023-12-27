@@ -14,19 +14,21 @@ public class ProbarFileWriter2 {
         List<Persona> personas = new ArrayList<>();
         try {
             FileWriter fSalida = new FileWriter("segundo_ejemplo.txt");
-            fSalida.write("NOMBRE\tEDAD\n");
+            fSalida.write("NOMBRE"+ "-".repeat(25) +"EDAD\n");
             String nombre = null;
+            String frase = null;
             int edad = 0;
-            for(int i = 0; i < 5; i++){
+            for(int i = 0; i < 2; i++){
                 System.out.println("Ingrese el nombre");
                 nombre = sc.nextLine();
 
                 System.out.println("Ingrese la edad");
                 edad = sc.nextInt();
-
                 sc.nextLine();
                 personas.add(new Persona(nombre, edad));
-                fSalida.write(personas.get(i).getNombre() + "\t" + personas.get(i).getEdad() + " años\n");
+                frase = String.format("%-20s \t \t \t %d \n", personas.get(i).getNombre(), personas.get(i).getEdad());
+
+                fSalida.write(frase);
             }
             fSalida.flush();
             fSalida.close();
