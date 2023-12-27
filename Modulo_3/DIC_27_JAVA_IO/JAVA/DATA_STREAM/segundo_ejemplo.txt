@@ -1,0 +1,6 @@
+NOMBRE	EDAD
+pedro	20
+pedro	10
+pedro	10
+pedro	30
+pedro	20
