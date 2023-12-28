@@ -1,17 +1,27 @@
-package com.corenetworks.presentacion.modelo;
+package com.corenetworks.modelo;
 
 import java.util.Objects;
 
 public class Persona {
     private String nombre;
     private int edad;
+    private double nota;
 
     public Persona() {
     }
 
-    public Persona(String nombre, int edad) {
+    public double getNota() {
+        return nota;
+    }
+
+    public void setNota(double nota) {
+        this.nota = nota;
+    }
+
+    public Persona(String nombre, int edad, double nota) {
         this.nombre = nombre;
         this.edad = edad;
+        this.nota = nota;
     }
 
     @Override
