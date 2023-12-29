@@ -5,21 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c305a40-0f4f-48b3-a195-288bd3a37352" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/corenetworks/nbactions.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/corenetworks/frameOne.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/corenetworks/modelo/Camisa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/corenetworks/modelo/Pantalon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/corenetworks/modelo/Ropa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/corenetworks/modelo/Zapatos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/corenetworks/presentacion/Leer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/corenetworks/presentacion/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tienda.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DIC_15_JAVA_CRUD_2/JAVA/DIC_15_CRUD/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DIC_15_JAVA_CRUD_2/JAVA/DIC_15_CRUD/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,11 +20,11 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2aBVauXY4t1vjLlb0zgEBhhoKsb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -55,7 +41,12 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/ggp20/Documents/Cursos2023/IFCD0609-CoreNetworks/Diciembre28LombokStreamIOObject/src/main/java/com/corenetworks/modelo"
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Roxc/Documents/GitHub/IFCT0609_ProgramacionSI/Modulo_3/DIC_28_Interfaces/Diciembre28LombokStreamIOObject-main",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
   <component name="RecentsManager">
