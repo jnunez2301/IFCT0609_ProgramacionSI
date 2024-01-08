@@ -1,0 +1,2 @@
+Escrito desde un PrintWriter
+El nombre del producto               Te tai tiene un precio 1,33 y hay 50 unidades

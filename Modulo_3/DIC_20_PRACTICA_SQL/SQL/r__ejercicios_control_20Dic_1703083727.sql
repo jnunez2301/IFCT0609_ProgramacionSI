@@ -11,7 +11,7 @@ SELECT (numarmas * 1.2) as num_armas, calibre FROM clases;
 SELECT * FROM barcos WHERE nombre LIKE 'C%';
 
 --5) Obtener las batallas cuya segunda posicion sea o
-SELECT * FROM batallas WHERE nombre LIKE '%o%';
+SELECT * FROM batallas WHERE nombre LIKE '_o%';
 
 --6) Nombres de clases de barco y países de las clases de barco que llevaban armas con un
 --calibre mayor o igual a 16 pulgadas.
@@ -70,14 +70,23 @@ INNER JOIN barcos b ON r.barco = b.nombre
 INNER JOIN clases c ON b.clase = c.clase
 GROUP BY b.clase
 HAVING count(resultado = 'hundido') >= 2;
+-- Correción
 
+select c.clase from resultados r
+inner join barcos b
+on b.nombre = r.barco
+inner join clases c
+on c.clase = b.clase
+where resultado = 'hundido'
+group by c.clase 
+having count(b.nombre)>=2
 --15) Batallas en las que participaron al menos tres barcos del mismo país.
 SELECT c.pais, count(c.pais)
 FROM clases c
 INNER JOIN barcos b ON c.clase = b.clase
 INNER JOIN resultados r ON b.nombre = r.barco
 GROUP BY c.pais
-HAVING count(c.pais) > 3;
+HAVING count(c.pais) >=  3;
 --resultado 1
 
 
