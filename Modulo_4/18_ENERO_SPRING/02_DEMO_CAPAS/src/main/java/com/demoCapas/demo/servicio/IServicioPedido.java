@@ -1,4 +1,4 @@
-package com.demoCapas.demo.servicio.interfaces;
+package com.demoCapas.demo.servicio;
 
 import com.demoCapas.demo.modelo.Pedido;
 
