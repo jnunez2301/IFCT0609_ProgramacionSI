@@ -1,4 +1,4 @@
-package com.corenetworks._ENERO.persistencia;
+package com.corenetworks._ENERO.repositorio.interfaces;
 
 import com.corenetworks._ENERO.modelo.Cliente;
 

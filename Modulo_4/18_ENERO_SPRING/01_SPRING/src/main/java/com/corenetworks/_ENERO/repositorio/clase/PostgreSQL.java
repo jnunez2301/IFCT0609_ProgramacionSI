@@ -1,13 +1,13 @@
-package com.corenetworks._ENERO.persistencia;
+package com.corenetworks._ENERO.repositorio.clase;
 
 import com.corenetworks._ENERO.modelo.Cliente;
-import lombok.Data;
+import com.corenetworks._ENERO.repositorio.interfaces.IBBDD;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 @Component
 @Primary
-public class PostgreSQL implements IBBDD{
+public class PostgreSQL implements IBBDD {
     @Override
     public String baseDatos() {
         return "Conectando a PostgreSQL";

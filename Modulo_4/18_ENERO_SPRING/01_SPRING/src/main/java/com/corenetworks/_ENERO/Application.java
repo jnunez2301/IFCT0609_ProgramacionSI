@@ -1,9 +1,7 @@
 package com.corenetworks._ENERO;
 
 import com.corenetworks._ENERO.modelo.Cliente;
-import com.corenetworks._ENERO.persistencia.CapaPersistencia;
-import com.corenetworks._ENERO.persistencia.MongoDB;
-import com.corenetworks._ENERO.persistencia.PostgreSQL;
+import com.corenetworks._ENERO.repositorio.clase.CapaPersistencia;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;

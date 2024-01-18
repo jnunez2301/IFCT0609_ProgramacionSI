@@ -1,6 +1,7 @@
-package com.corenetworks._ENERO.persistencia;
+package com.corenetworks._ENERO.repositorio.clase;
 
 import com.corenetworks._ENERO.modelo.Cliente;
+import com.corenetworks._ENERO.repositorio.interfaces.IBBDD;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

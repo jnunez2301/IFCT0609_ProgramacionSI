@@ -1,11 +1,11 @@
-package com.corenetworks._ENERO.persistencia;
+package com.corenetworks._ENERO.repositorio.clase;
 
 import com.corenetworks._ENERO.modelo.Cliente;
-import lombok.Data;
+import com.corenetworks._ENERO.repositorio.interfaces.IBBDD;
 import org.springframework.stereotype.Component;
 
 @Component
-public class MongoDB implements IBBDD{
+public class MongoDB implements IBBDD {
     @Override
     public String baseDatos() {
         return "Conectando a MongoDB";
