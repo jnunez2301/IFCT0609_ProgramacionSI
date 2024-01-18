@@ -9,3 +9,9 @@ Ejercicios, teoría y examenes del curso Programación de Sistemas Informáticos
 [Modulo 3 - Bases de Datos Relacionales](/Modulo_3/)
 [Modulo 4 - Spring](/Modulo_4/)
 
+
+## Centros FP Recomendados
+
+* [IES Virgen de la PALOMA | DAW y DAM](https://www.palomafp.org/)
+* [Centro Cultural Sal Martino](https://salmantinocentrocu.wixsite.com/misitio/ciclos-formativos-grado-superior)
+* [IES Leonardo Davinchi](https://site.educa.madrid.org/ies.leonardodavinci.madrid/)
