@@ -23,8 +23,6 @@ public class Application implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		c1.setDni("1234");
-		c1.setNombre("Jon");
 		System.out.println(cpM.insertar(c1));
 		System.out.println(cpP.insertar(c1));
 	}
