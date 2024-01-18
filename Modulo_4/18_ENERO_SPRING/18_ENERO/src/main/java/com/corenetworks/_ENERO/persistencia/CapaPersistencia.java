@@ -1,26 +1,23 @@
 package com.corenetworks._ENERO.persistencia;
 
 import com.corenetworks._ENERO.modelo.Cliente;
-import lombok.Data;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-@Data
 @Component
-public class CapaPersistenciaMongoDB implements IBBDD{
-    @Override
-    public String baseDatos() {
-        return "Conectando a MongoDB";
-    }
+public class CapaPersistencia {
+    @Autowired
+    private IBBDD baseDatos;
     public String insertar(Cliente c1){
-        return "Insertando en MongoDB";
+        return baseDatos.insertar(c1);
     }
     public String eliminar(Cliente c1){
-        return "Eliminando en MongoDB";
+        return baseDatos.eliminar(c1);
     }
     public String modificar(Cliente c1){
-        return "Modificando en MongoDB";
+        return baseDatos.modificar(c1);
     }
     public String consultar(Cliente c1){
-        return "Consultando en MongoDB";
+        return baseDatos.consultar(c1);
     }
 }

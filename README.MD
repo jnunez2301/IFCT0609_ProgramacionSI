@@ -10,8 +10,8 @@ Ejercicios, teoría y examenes del curso Programación de Sistemas Informáticos
 [Modulo 4 - Spring](/Modulo_4/)
 
 
-## Centros FP Recomendados
+## Centros FP Recomendados| DAW y DAM
 
-* [IES Virgen de la PALOMA | DAW y DAM](https://www.palomafp.org/)
+* [IES Virgen de la PALOMA ](https://www.palomafp.org/)
 * [Centro Cultural Sal Martino](https://salmantinocentrocu.wixsite.com/misitio/ciclos-formativos-grado-superior)
 * [IES Leonardo Davinchi](https://site.educa.madrid.org/ies.leonardodavinci.madrid/)
