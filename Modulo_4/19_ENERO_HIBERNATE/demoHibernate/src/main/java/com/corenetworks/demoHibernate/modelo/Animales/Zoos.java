@@ -1,4 +1,4 @@
-package com.corenetworks.demoHibernate.modelo.animales;
+package com.corenetworks.demoHibernate.modelo.Animales;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

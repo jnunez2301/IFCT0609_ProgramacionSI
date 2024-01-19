@@ -1,4 +1,4 @@
-package com.corenetworks.demoHibernate.modelo;
+package com.corenetworks.demoHibernate.modelo.Empleados;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

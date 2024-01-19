@@ -1,4 +1,4 @@
-package com.corenetworks.demoHibernate.modelo;
+package com.corenetworks.demoHibernate.modelo.CentrosEducativos;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -8,20 +8,19 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
+
 @Entity
-@Table(name = "centros_publicos")
-public class CentrosPublicos {
+@Table(name="centros_privados")
+public class CentrosPrivados {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     @Column(length = 60, nullable = false)
-    private String direccion;
-    @Column(length = 60, nullable = false)
-    private String nombre;
+    private String agrupacion;
     @Column(nullable = false)
-    private int plazas;
+    private double comision;
 
     @OneToOne
-    @JoinColumn(name = "id_centro", nullable = false, foreignKey = @ForeignKey(name = "FK_centros_publicos"))
+    @JoinColumn(name = "id_centro", nullable = false, foreignKey = @ForeignKey(name = "FK_centros_privados"))
     private CentrosEducativos c1;
 }
