@@ -7,11 +7,11 @@ Ejercicios, teoría y examenes del curso Programación de Sistemas Informáticos
 [Modulo 2 - Programación Orientada a Objetos](/Modulo_2/)
 
 [Modulo 3 - Bases de Datos Relacionales](/Modulo_3/)
-[Modulo 4 - Spring](/Modulo_4/)
+[Modulo 4 - Spring / Hibernate](/Modulo_4/)
 
 
 ## Centros FP Recomendados| DAW y DAM
 
-* [IES Virgen de la PALOMA ](https://www.palomafp.org/)
-* [Centro Cultural Sal Martino](https://salmantinocentrocu.wixsite.com/misitio/ciclos-formativos-grado-superior)
-* [IES Leonardo Davinchi](https://site.educa.madrid.org/ies.leonardodavinci.madrid/)
+* [IES Virgen de la PALOMA - Moncloa ](https://www.palomafp.org/)
+* [Centro Cultural Sal Martino - Puente de Vallecas](https://salmantinocentrocu.wixsite.com/misitio/ciclos-formativos-grado-superior)
+* [IES Leonardo Davinchi - Latina](https://site.educa.madrid.org/ies.leonardodavinci.madrid/)
