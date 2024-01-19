@@ -18,7 +18,7 @@ public class CentrosPrivados {
     @Column(length = 60, nullable = false)
     private String agrupacion;
     @Column(nullable = false)
-    private double precision;
+    private double comision;
 
     @OneToOne
     @JoinColumn(name = "id_centro", nullable = false, foreignKey = @ForeignKey(name = "FK_centros_privados"))
