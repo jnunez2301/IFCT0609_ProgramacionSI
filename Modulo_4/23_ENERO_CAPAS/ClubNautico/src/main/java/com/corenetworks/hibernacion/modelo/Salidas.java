@@ -11,7 +11,7 @@ import java.util.List;
 
 @NoArgsConstructor
 @AllArgsConstructor
-@Data
+//@Data
 @Entity
 @Table(name = "salidas")
 public class Salidas {
@@ -29,4 +29,19 @@ public class Salidas {
     @ManyToOne
     @JoinColumn(name = "matricula", nullable = false, foreignKey = @ForeignKey(name = "FK_salidas_barcos"))
     private Barcos b1;
+
+    public Salidas(int idSalida, LocalDate fechaSalida, LocalTime horaSalida, String destino) {
+        this.idSalida = idSalida;
+        this.fechaSalida = fechaSalida;
+        this.horaSalida = horaSalida;
+        this.destino = destino;
+    }
+
+    public void setP1(Patron p1) {
+        this.p1 = p1;
+    }
+
+    public void setB1(Barcos b1) {
+        this.b1 = b1;
+    }
 }
