@@ -1,6 +1,7 @@
 package com.crud.demo.modelo;
 
 import jakarta.persistence.*;
+import lombok.NoArgsConstructor;
 
 import java.time.LocalDate;
 
@@ -42,6 +43,14 @@ public class Visitas {
     }
 
     public Visitas() {
+    }
+
+    @Override
+    public String toString() {
+        return "Visitas{" +
+                "idVisita=" + idVisita +
+                ", fechaVisita=" + fechaVisita +
+                '}';
     }
 }
 
