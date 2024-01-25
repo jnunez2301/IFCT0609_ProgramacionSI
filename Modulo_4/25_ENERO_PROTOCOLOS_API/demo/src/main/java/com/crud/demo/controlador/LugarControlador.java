@@ -27,4 +27,12 @@ public class LugarControlador {
     public Lugares insertarLugar(@RequestBody Lugares l1){
         return lugaresServicio.insertar(l1);
     }
+    @PutMapping
+    public Lugares modificarLugar(@RequestBody Lugares l1){
+        return lugaresServicio.modificar(l1);
+    }
+    @DeleteMapping("/{id}")
+    public void eliminarUno(@PathVariable("id") int id){
+        lugaresServicio.eliminar(id);
+    }
 }
