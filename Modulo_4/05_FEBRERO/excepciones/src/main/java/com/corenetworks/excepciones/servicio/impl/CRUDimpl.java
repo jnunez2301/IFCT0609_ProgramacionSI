@@ -1,5 +1,6 @@
 package com.corenetworks.excepciones.servicio.impl;
 
+import com.corenetworks.excepciones.modelo.Producto;
 import com.corenetworks.excepciones.repositorio.IGenericRepository;
 import com.corenetworks.excepciones.servicio.ICRUD;
 import org.springframework.beans.factory.annotation.Autowired;
