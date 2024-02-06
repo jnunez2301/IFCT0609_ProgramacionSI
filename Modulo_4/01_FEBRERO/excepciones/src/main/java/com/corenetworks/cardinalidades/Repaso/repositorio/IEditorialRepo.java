@@ -8,7 +8,7 @@ import org.springframework.data.repository.query.Param;
 
 import java.util.List;
 
-public interface IEditorialRepo extends JpaRepository<Editorial, Integer > {
+public interface IEditorialRepo extends IGenericoRepositorio<Editorial, Integer > {
     @Query("from Editorial e where e.direccion = :direccion")
     List<Editorial> filtroPorDireccion(@Value("direccion") String direccion);
     @Query(value = "Select e.id_editorial, direccion, nombre from editoriales e where e.nombre like :nombre%",

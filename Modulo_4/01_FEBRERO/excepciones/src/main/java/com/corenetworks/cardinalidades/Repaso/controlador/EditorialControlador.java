@@ -1,12 +1,10 @@
-package com.corenetworks.cardinalidades.Repaso.controldor;
+package com.corenetworks.cardinalidades.Repaso.controlador;
 
 import com.corenetworks.cardinalidades.Repaso.excepciones.ExcepcionNoEncontradoModelo;
 import com.corenetworks.cardinalidades.Repaso.modelo.Editorial;
-import com.corenetworks.cardinalidades.Repaso.modelo.Libro;
 import com.corenetworks.cardinalidades.Repaso.servicio.IEditorialServicio;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

@@ -4,7 +4,7 @@ import com.corenetworks.cardinalidades.Repaso.modelo.Editorial;
 
 import java.util.List;
 
-public interface IEditorialServicio {
+public interface IEditorialServicio extends ICRUD{
     Editorial crear(Editorial e);
     Editorial modificar(Editorial e);
     void eliminar(int id);

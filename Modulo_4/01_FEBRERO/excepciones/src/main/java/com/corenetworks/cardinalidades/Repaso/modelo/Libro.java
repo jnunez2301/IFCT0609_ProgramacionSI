@@ -21,6 +21,7 @@ public class Libro {
     private String autor;
     @Column(nullable = false)
     private double precio;
+
     @JsonIgnore
     @ManyToOne(cascade = CascadeType.ALL)
     @JoinColumn(name="id_editorial",

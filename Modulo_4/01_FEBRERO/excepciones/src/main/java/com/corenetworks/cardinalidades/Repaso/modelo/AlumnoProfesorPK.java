@@ -16,6 +16,7 @@ public class AlumnoProfesorPK implements Serializable {
     @ManyToOne
     @JoinColumn(name="id_profesor", nullable = false, foreignKey = @ForeignKey(name="FK_ap_profesores"))
     private Profesor profesor;
+
     @ManyToOne
     @JoinColumn(name="id_alumno", nullable = false, foreignKey = @ForeignKey(name="FK_ap_alumnos"))
     private Alumno alumno;
