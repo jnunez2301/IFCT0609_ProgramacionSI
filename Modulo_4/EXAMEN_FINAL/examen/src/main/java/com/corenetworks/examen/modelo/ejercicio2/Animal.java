@@ -18,7 +18,7 @@ public class Animal{
     private int idAnimal;
     private char Sexo;
     private LocalDate fNacimiento;
-    
+
     @ManyToOne
     @JoinColumn(name = "id_especie", nullable = false, foreignKey = @ForeignKey(name = "FK_animal_especie_animales"))
     private Especie especie;
