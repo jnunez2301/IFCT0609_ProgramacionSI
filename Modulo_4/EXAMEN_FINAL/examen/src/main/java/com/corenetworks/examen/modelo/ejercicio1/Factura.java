@@ -3,12 +3,15 @@ package com.corenetworks.examen.modelo.ejercicio1;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
+@Component
 public class Factura{
 
     private IImpuesto impuesto;

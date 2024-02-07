@@ -5,6 +5,8 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.List;
+
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
@@ -19,5 +21,12 @@ public class Especie {
     @Column(length = 60, nullable = false, unique = true)
     private String nombreCientifico;
     private boolean extincion;
+
+    @OneToMany(
+            fetch = FetchType.EAGER,
+            cascade = CascadeType.ALL,
+            mappedBy = "especie"
+    )
+    private List<Animal> animales;
 
 }
