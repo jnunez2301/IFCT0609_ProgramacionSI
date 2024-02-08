@@ -1,0 +1,47 @@
+.form{
+    display: grid;
+    gap: 5px;
+    width: 300px;
+}
+input{
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    transition: all .3s ease-in-out;
+    outline: none;
+}
+
+input:focus{
+    border: 1px solid blue;
+}
+button{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    transition: opacity .3s ease-in;
+    cursor: pointer;
+}
+button:hover{
+    opacity: 0.8;
+}
+li{
+    list-style-type: none;
+}
+section{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+section li{
+    padding: 10px 15px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section ul{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    height: 250px;
+    border-radius: 5px;
+    flex-grow: 1;
+    padding: 1rem;
+    margin: 0;
+}

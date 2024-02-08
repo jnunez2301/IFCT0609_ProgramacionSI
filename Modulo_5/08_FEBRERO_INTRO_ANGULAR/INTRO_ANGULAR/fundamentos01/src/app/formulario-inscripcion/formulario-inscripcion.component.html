@@ -1,0 +1,19 @@
+<h2>Formulario inscripción del curso</h2>
+
+<section>
+<div class="form">
+    <input type="text" [(ngModel)]="nombre" placeholder="nombre"/>
+    <input type="number" [(ngModel)]="edad" placeholder="edad" min="18" max="150"/>
+    <input type="text" [(ngModel)]="dni" placeholder="dni"/>
+    <input type="text" [(ngModel)]="cursoSolicitado" placeholder="curso solicitado"/>
+    <input type="text" [(ngModel)]="nivelEstudio" placeholder="nivel de estudio">
+    <button type="submit">Submit</button>
+</div>
+<ul>
+    <li>Nombre: {{nombre}}</li>
+    <li>DNI: {{dni}}</li>
+    <li>Edad: {{edad}}</li>
+    <li>Curso Solicitado: {{cursoSolicitado}}</li>
+    <li>Nivel Estudio: {{nivelEstudio}}</li>
+</ul>
+</section>
