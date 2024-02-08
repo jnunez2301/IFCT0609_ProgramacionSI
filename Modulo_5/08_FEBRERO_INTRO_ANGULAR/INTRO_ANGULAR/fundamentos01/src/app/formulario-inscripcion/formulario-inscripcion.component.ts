@@ -9,9 +9,9 @@ import { FormsModule } from '@angular/forms';
   styleUrl: './formulario-inscripcion.component.css'
 })
 export class FormularioInscripcionComponent {
-  nombre= '';
-  dni='';
-  edad='';
-  cursoSolicitado='';
-  nivelEstudio='';
+  nombre:String= '';
+  dni:String='';
+  edad:Number=0;
+  cursoSolicitado:String='';
+  nivelEstudio:String='';
 }

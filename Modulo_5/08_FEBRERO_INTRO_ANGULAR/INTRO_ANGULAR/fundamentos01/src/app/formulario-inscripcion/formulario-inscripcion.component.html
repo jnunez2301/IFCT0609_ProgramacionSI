@@ -1,21 +1,34 @@
 <main>
-<h2>Formulario inscripción del curso</h2>
+    <h2>Formulario inscripción del curso</h2>
 
-<section>
-<div class="form">
-    <input type="text" [(ngModel)]="nombre" placeholder="nombre"/>
-    <input type="number" [(ngModel)]="edad" placeholder="edad" min="18" max="150"/>
-    <input type="text" [(ngModel)]="dni" placeholder="dni"/>
-    <input type="text" [(ngModel)]="cursoSolicitado" placeholder="curso solicitado"/>
-    <input type="text" [(ngModel)]="nivelEstudio" placeholder="nivel de estudio">
-    <button type="submit">Submit</button>
-</div>
-<ul>
-    <li>Nombre: {{nombre}}</li>
-    <li>DNI: {{dni}}</li>
-    <li>Edad: {{edad}}</li>
-    <li>Curso Solicitado: {{cursoSolicitado}}</li>
-    <li>Nivel Estudio: {{nivelEstudio}}</li>
-</ul>
-</section>
+    <section>
+        <div class="form">
+            <input type="text" [(ngModel)]="nombre" placeholder="nombre" />
+            <input type="number" [(ngModel)]="edad" placeholder="edad" min="18" max="150" />
+            <input type="text" [(ngModel)]="dni" placeholder="dni" 
+            minlength="9" maxlength="9"
+            />
+            <label>Escriba el nombre del curso</label>
+            <select
+             [(ngModel)]="cursoSolicitado">
+                <option value="IFCD0110 Desarrollo Web">Desarrollo web</option>
+                <option value="IFCD0111 Programación Estructurado">Programación estructurado</option>
+                <option value="IFCD0112 Programación Orientada a Objetos">Programación Orientada a Objetos</option>
+            </select>
+            <label>Escriba el nivel de estudio</label>
+            <select [(ngModel)]="nivelEstudio">
+                <option value="ESO">ESO</option>
+                <option value="Bachillerato">Bachillerato</option>
+                <option value="FP">FP</option>
+            </select>
+            <button type="submit">Submit</button>
+        </div>
+        <ul>
+            <li>Nombre: {{nombre}}</li>
+            <li>DNI: {{dni}}</li>
+            <li>Edad: {{edad}}</li>
+            <li>Curso Solicitado: {{cursoSolicitado}}</li>
+            <li>Nivel Estudio: {{nivelEstudio}}</li>
+        </ul>
+    </section>
 </main>

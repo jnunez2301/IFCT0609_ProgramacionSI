@@ -12,7 +12,7 @@ h2{
     gap: 5px;
     width: 300px;
 }
-input{
+input, select{
     padding: 10px 15px;
     border-radius: 5px;
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -20,7 +20,7 @@ input{
     outline: none;
 }
 
-input:focus{
+input:focus, select:focus{
     border: 1px solid blue;
 }
 button{
@@ -55,7 +55,8 @@ section li{
 }
 section ul{
     border: 1px solid rgba(0, 0, 0, 0.1);
-    height: 250px;
+    height: 100%;
+    min-height: 300px;
     border-radius: 5px;
     flex-grow: 1;
     padding: 1rem;
