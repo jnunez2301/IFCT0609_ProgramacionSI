@@ -11,7 +11,7 @@ import { FormsModule } from '@angular/forms';
 export class FormularioInscripcionComponent {
   nombre= '';
   dni='';
-  edad:Number=0;
+  edad='';
   cursoSolicitado='';
   nivelEstudio='';
 }
