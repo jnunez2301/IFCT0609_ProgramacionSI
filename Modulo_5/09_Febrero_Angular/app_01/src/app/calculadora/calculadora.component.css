@@ -1,0 +1,76 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label{
+    margin: 5px 0;
+}
+h1{
+    background: linear-gradient(to right,#f2f2f2, #2959ad);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    height: auto;
+    width: 350px;
+    background-color: #f8fafc;
+    border-radius: 5px;
+    
+}
+input{
+    padding: 10px 15px;
+    outline: none;
+    border:1px solid rgba(0,0,0,0.5);
+    border-radius: 5px;
+}
+button{
+    padding: 10px 15px;
+    cursor: pointer;
+    border: none;
+    margin: 5px 0;
+    outline: 1px solid rgba(0,0,0,0.1);
+    border-radius: 5px;
+    transition: background-color .2s ease-in-out
+}
+button:hover{
+    background-color: #ece1e1;
+}
+.resultado{
+    background-color: #d3d6df;
+    padding: 1rem;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+.numbers{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 5px;
+}
+.operaciones{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 100%;
+    gap: 5px;
+}
+.divisas{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+}
+.numeros-seleccionados{
+    display: flex;
+    gap: 5px;
+    height: 20px;
+}
+.calcular{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+}

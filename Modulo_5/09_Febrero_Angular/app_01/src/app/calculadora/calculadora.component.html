@@ -1,0 +1,43 @@
+<h1>Calculadora</h1>
+<div class="container">
+    <div class="resultado">
+        <div class="numeros-seleccionados">
+            @if (numero1 > 0) {
+            {{numero1}}
+            {{operacion}}
+            }
+
+            @if (numero2 > 0) {
+            {{numero2}}
+            }
+        </div>
+        {{ resultado }}
+    </div>
+    <div class="operaciones">
+        <button type="button" (click)="sumar()">+</button>
+        <button type="button" (click)="resta()">-</button>
+        <button type="button" (click)="multiplicar()">x</button>
+        <button type="button" (click)="dividir()">/</button>
+        <button type="button" (click)="limpiarConsola()">AC</button>
+        
+    </div>
+    <div class="divisas">
+        <button type="button" (click)="euroDolar()">EUR -> USD</button>
+        <button type="button" (click)="dolarEuro()">USD -> EUR</button>
+    </div>
+    <div class="numbers">
+        <button type="button" (click)="onNumberClick(7)">7</button>
+        <button type="button" (click)="onNumberClick(8)">8</button>
+        <button type="button" (click)="onNumberClick(9)">9</button>
+        <button type="button" (click)="onNumberClick(4)">4</button>
+        <button type="button" (click)="onNumberClick(5)">5</button>
+        <button type="button" (click)="onNumberClick(6)">6</button>
+        <button type="button" (click)="onNumberClick(1)">1</button>
+        <button type="button" (click)="onNumberClick(2)">2</button>
+        <button type="button" (click)="onNumberClick(3)">3</button>
+    </div>
+    <div class="calcular">
+        <button type="button" (click)="onNumberClick(0)">0</button>
+        <button type="button" (click)="calcular()">=</button>
+    </div>
+</div>
