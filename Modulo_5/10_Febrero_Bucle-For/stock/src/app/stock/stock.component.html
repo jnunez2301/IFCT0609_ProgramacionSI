@@ -1,0 +1,45 @@
+<section>
+    <header>
+        <h2>Ingreso de Producto a Stock</h2>
+    </header>
+    <div>
+        <div>
+            <label>Descripción</label>
+            <input type="text" [(ngModel)]="description" placeholder="Ingrese la descripción" />
+        </div>
+        <div>
+            <div class="pricing_container">
+                <div>
+                    <label for="codigo">Código</label>
+                    <input type="number" [(ngModel)]="code" placeholder="Codigo ">
+                    <label for="precio_costo">Precio Costo</label>
+                    <input type="number" [(ngModel)]="precio_costo" placeholder="Precio costo">
+                </div>
+                <div>
+                    <label for="precio_venta">Precio Venta</label>
+                    <input type="number" placeholder="Precio Venta" [(ngModel)]="precio_venta">
+                    <label for="stock_ideal">Stock Ideal</label>
+                    <input type="number" placeholder="Stock ideal" [(ngModel)]="stock_ideal">
+                </div>
+                <div>
+                    <button type="button">Modificar</button>
+                    <button type="button" (click)="ingresar()">Ingresar</button>
+                </div>
+                <div>
+                    <button type="button" class="exit">Salir</button>
+
+                </div>
+                @if (correcto && abierto) {
+                    <div class="modal">
+                        <div>
+                            <button (click)="cerrar()">X</button>
+                            <h2>Producto dado de alta</h2>
+                        </div>
+                    </div>
+                }
+            </div>
+
+        </div>
+
+    </div>
+</section>

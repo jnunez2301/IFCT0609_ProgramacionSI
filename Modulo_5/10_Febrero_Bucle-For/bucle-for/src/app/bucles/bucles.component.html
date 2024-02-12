@@ -1,0 +1,13 @@
+<ul>
+    @if(logeado){
+    @for (usuario of usuarios; track usuario.id) {
+
+    <li>{{usuario.id}} {{usuario.nombre}}</li>
+    }
+    <button type="button" (click)="salir()">Salir</button>
+    }
+    @else {
+    <p>Por favor logee</p>
+    <button type="button" (click)="logear()">Logear</button>
+    }
+</ul>

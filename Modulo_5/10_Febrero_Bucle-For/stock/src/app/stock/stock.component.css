@@ -1,0 +1,68 @@
+section {
+  background-color: #f8fafc;
+  height: 350px;
+  width: 450px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  align-items: center;
+}
+input {
+  border-radius: 5px;
+  border: none;
+  outline: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 8px 12px;
+  margin: 10px;
+}
+.pricing_container {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(10px, 1fr));
+  grid-template-rows: repeat(3, minmax(10px, 1fr));
+  width: 100%;
+  gap: 10px;
+  position: relative;
+}
+.pricing_container input {
+  width: 100%;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  padding: 8px 12px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin: 5px;
+  transition: all 0.2s ease-in-out;
+}
+button:hover {
+  border-radius: 7px;
+  background-color: #cbd5e1;
+}
+.exit {
+  position: absolute;
+  right: 0;
+}
+@keyframes fade-in-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+}
+.modal{
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  text-align: center;
+  background-color: #f8fafc;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 5px;
+  position: absolute;
+  animation: fade-in-down 0.3s ease-in;
+}
+.modal  button{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
