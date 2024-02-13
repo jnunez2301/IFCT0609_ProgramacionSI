@@ -1,0 +1,6 @@
+<h2>Información recibida desde el padre</h2>
+<p>{{datoHijo}}</p>
+<button type="button" (click)="agregar()">Agregar alumno</button>
+@for (alumno of alumnos; track $index) {
+    <p>{{alumno}}</p>
+}

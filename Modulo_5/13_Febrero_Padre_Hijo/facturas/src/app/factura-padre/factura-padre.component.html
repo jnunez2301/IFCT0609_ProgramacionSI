@@ -1,0 +1,18 @@
+<h2>Ingreso de Factura</h2>
+
+
+<input type="text" [(ngModel)]="codigo_cliente" placeholder="Código del cliente">
+<br>
+<input type="text" [(ngModel)]="direccion_entrega" placeholder="Dirección de entrega">
+<br>
+<input type="text" [(ngModel)]="forma_pago" placeholder="Forma de pago">
+<br>
+<input type="text" [(ngModel)]="producto" placeholder="Nombre del producto">
+
+
+<app-factura-hijo
+[codigo_hijo]="codigo_cliente"
+[pago_hijo]="forma_pago"
+[direccin_hijo]="direccion_entrega"
+[producto_hijo]="producto"
+></app-factura-hijo>
