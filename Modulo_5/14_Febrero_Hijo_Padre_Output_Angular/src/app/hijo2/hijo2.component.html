@@ -1,0 +1,11 @@
+<div>
+<label >Asignaturas</label>
+<select class="form-select" [(ngModel)]="asignaturaSeleccionada">
+    @for(elemento of asignaturas; track $index){
+        <option >{{elemento}}</option>
+    }  
+</select>
+
+<button class="form-button" (click)="pasarPadre()">Seleccionar</button>
+<br>
+</div>

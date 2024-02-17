@@ -1,0 +1,15 @@
+table{
+    text-align: center;
+    border: none;
+}
+th{
+    padding: 8px 12px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+tr{
+    transition: all .2s ease-in-out;
+}
+tr:hover{
+    background-color: rgb(235, 189, 103);
+    cursor: pointer;
+}
