@@ -1,1 +1,28 @@
 <p>Como somos una empresa muy innovadora nos comunicamos por <i>telepatia</i> y <i>magia</i></p>
+<p>Mentira tenemos un formulario xd</p>
+
+<div>
+    <label for="correo">Correo</label>
+    <br>
+    <input type="email" id="correo" placeholder="Escriba su correo electrónico" [(ngModel)]="correo" required>
+    <br>
+    <label for="nombre">Nombre</label>
+    <br>
+    <input type="text" id="nombre" placeholder="Ingrese su nombre" [(ngModel)]="nombre" required>
+    <br>
+    <label for="telefono">Teléfono</label>
+    <br>
+    <input type="tel" placeholder="Ingrese su telefóno" pattern="[0-9](3)-[0-9](3)-[0-9](3)" [(ngModel)]="telefono" id="telefono" required>
+    <br>
+    <br>
+    <label for="comentario">Comentario</label>
+    <br>
+    <textarea id="comentario" placeholder="Deje su comentario" [(ngModel)]="comentario"> </textarea>
+    <br>
+    <button (click)="enviarInfo()" required>Submit</button>
+</div>
+<div>
+    @if (enviado) {
+    <p>Mensaje Recibido!</p>
+}
+</div>
