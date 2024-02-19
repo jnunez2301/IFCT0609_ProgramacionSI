@@ -1,0 +1,49 @@
+.productos{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+@keyframes bounceIn {
+    0%{
+        transform: translateX(-10px);
+        transform: translateY(1000px);
+    }
+    50%{
+        transform: translateX(-15px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+    
+}
+@keyframes bigToSmall {
+    0%{
+     transform: scale(1.5);
+    }
+    50%{
+     transform: scale(0);
+    }
+    
+}
+
+.price{
+    color: rgb(124, 90, 26);
+    font-weight: bold;
+    animation: bigToSmall 1s ease-in-out 1s; 
+}
+.producto{
+    cursor: pointer;
+    padding: .5rem;
+    transition: border-radius .2s ease;
+    width: 150px;
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    animation: bounceIn 1s ease-in-out;
+}
+.producto:hover{
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);   
+}

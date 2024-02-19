@@ -1,0 +1,35 @@
+input[type=text], input[type=number],input[type=number], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    width: 100%;
+    background-color: #b6520b;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #b55122;
+  }
+  
+  div {
+    border-radius: 5px;
+    background-color: #151718;
+    padding: 20px;
+  }
+  input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }

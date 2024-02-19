@@ -1,0 +1,11 @@
+<h2>Bienvenido, aquí tienes una lista de nuestros productos</h2>
+
+<section class="productos">
+@for (p of productos; track $index) {
+<div class="producto">
+    <img [src]="p.img" [alt]="p.name">
+    <p>{{p.name}}</p>
+    <p class="price">{{p.precio}}</p>
+</div>
+}
+</section>

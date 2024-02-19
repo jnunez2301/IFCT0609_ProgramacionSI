@@ -1,0 +1,19 @@
+<h1>Componentes creados dinamicamente</h1>
+
+<h2>Generos</h2>
+<hr>
+@for(item of generos; track $index){
+    <label for={{item}}>{{item}}</label>
+    <input type="radio" name="genero" id={{item}} [(ngModel)]="genero" value={{item}}>
+}
+<br>
+<h2>Nacionalidades</h2>
+<hr>
+@for(item of nacionalidades; track $index){
+    <label for={{item}}>{{item}}</label>
+    <input type="radio" name="nacionalidad" id={{item}} [(ngModel)]="nacionalidad" value={{item}}>
+}
+<br>
+@if (genero.length > 0 && nacionalidad.length > 0) {
+<button type="button" (click)="mostrarInfo()">Mostrar Info</button>
+}
