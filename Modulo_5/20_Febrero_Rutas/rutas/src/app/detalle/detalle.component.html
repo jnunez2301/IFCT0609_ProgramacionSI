@@ -1,0 +1,17 @@
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Nombre</th>
+    <th>Imagen</th>
+  </tr>
+  @for (p of productos; track $index) {
+
+  <tr>
+    <td>
+      <a [routerLink]="['/detalle', p.productoId]"> {{ p.productoId }} </a>
+    </td>
+    <td>{{p.nombre}}</td>
+    <td><img [src]="p.img" [alt]="p.nombre"></td>
+  </tr>
+  }
+</table>
