@@ -1,0 +1,37 @@
+<div class="m-2">
+  <h2>Blogs</h2>
+  <hr />  
+</div>
+<div class="container-fluid d-flex">
+  <div class="row g-2">
+    @for (item of posts; track item.id) {
+    <div class="col">
+      <div class="card" style="width: 18rem">
+        <img
+          [src]="item.thumbnailUrl"
+          class="card-img-top"
+          [alt]="item.title"
+        />
+        <div class="card-body">
+          <h5 class="card-title">{{ item.title }}</h5>
+          <p class="card-text">{{ item.description }}</p>
+          <a
+            [routerLink]="['/detalle', item.id]"
+            routerLinkActive="router-link-active"
+            class="btn btn-primary"
+            >Visit Blog</a
+          >
+        </div>
+      </div>
+    </div>
+    }
+  </div>
+  <div class="col-3">
+    <h2>New entries</h2>
+    <ul class="list-group">
+      @for (item of posts; track item.id) {
+      <li class="list-group-item">User: {{ item.title }}</li>
+      }
+    </ul>
+  </div>
+</div>

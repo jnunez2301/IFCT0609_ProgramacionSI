@@ -1,0 +1,11 @@
+
+<button routerLink="/inicio" class="btn btn-primary m-2">Go back</button>
+<div class="container-fluid text-center">
+  <div>
+    <h2>{{ posts[id - 1].title }}</h2>
+    <img [src]="posts[id - 1].thumbnailUrl" class="img-thumbail" alt="" />
+  </div>
+  <p>{{ posts[id - 1].description }}</p>
+</div>
+
+
