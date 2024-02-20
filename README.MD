@@ -10,6 +10,7 @@ Ejercicios, teoría y examenes del curso Programación de Sistemas Informáticos
 
 [Modulo 4 - Spring / Hibernate](/Modulo_4/)
 
+[Modulo 5  - Angular](/Modulo_5/)
 
 ## Centros FP Recomendados| DAW y DAM
 
