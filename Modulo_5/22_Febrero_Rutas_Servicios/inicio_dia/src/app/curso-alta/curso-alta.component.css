@@ -1,0 +1,35 @@
+section{
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #f1f5f9;
+    border-radius: 5px;
+}
+input, select{
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 5px;
+    margin: 1rem 0;
+}
+button{
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: .3rem 0;
+    transition: all .3s ease-in-out;
+}
+
+.btn-update{
+    background-color: purple;
+    color: #f2f2f2;
+}
+.btn-update:hover{
+    background-color: rgb(86, 2, 86);
+}
+.btn-cancel:hover{
+    background-color: rgb(164, 144, 144);
+}

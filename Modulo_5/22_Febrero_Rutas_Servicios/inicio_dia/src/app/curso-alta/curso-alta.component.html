@@ -1,0 +1,39 @@
+<section>
+  <div>
+    <h2>Cursos</h2>
+  </div>
+
+  <div>
+    <label>Nombre</label>
+    <input
+      type="text"
+      [(ngModel)]="curso._nombre"
+      placeholder="Nombre del curso"
+    />
+  </div>
+  <div>
+    <label>Duracion</label>
+    <input
+      type="number"
+      [(ngModel)]="curso._duracion"
+      placeholder="Duración del curso"
+    />
+  </div>
+  <select [(ngModel)]="curso._nivel">
+    @for (item of niveles; track $index) {
+    <option [value]="item">{{ item }}</option>
+    }
+  </select>
+  <br />
+  <p>
+    ID: @if(curso._id ==0){
+    <label>Nuevo</label>
+    }@else {
+    <label>{{ curso._id }}</label>
+    }
+  </p>
+  <button class="btn-update" (click)="modificarAltaCurso()">Modificar</button>
+  <button class="btn-cancel" [routerLink]="['/']" routerLinkActive="router-link-active">
+    Cancelar
+  </button>
+</section>

@@ -1,0 +1,16 @@
+<section>
+  <h2>Lista de cursos</h2>
+  <ul>
+    @for (item of cursos; track item._id) {
+    <li>
+      {{ item._id }} - {{ item._nombre }} - {{ item._nivel }}
+      <button
+        [routerLink]="['/modificacion', item._id]"
+        routerLinkActive="router-link-active"
+      >
+        Modificar
+      </button>
+    </li>
+    }
+  </ul>
+</section>
