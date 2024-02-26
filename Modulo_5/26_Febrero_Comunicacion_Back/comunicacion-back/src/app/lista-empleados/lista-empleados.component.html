@@ -1,0 +1,10 @@
+<h2>Lista de Empleados</h2>
+
+@for (elemento of Empleados; track elemento.idEmpleado) {
+    <tr>
+        <td>{{elemento.idEmpleado}}</td>
+        <td>{{elemento.dni}}</td>
+        <td>{{elemento.nombreEmpleado}}</td>
+        <td>{{elemento.sueldo}}</td>
+    </tr>
+}

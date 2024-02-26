@@ -1,0 +1,15 @@
+<h2>Alta Empleado</h2>
+
+<div>
+    <label for="nombre_empleado">
+        Nombre empleado:
+    </label>
+    <input type="text" id="nombre_empleado" placeholder="Escriba el nombre del empleado" [(ngModel)]="e1.nombreEmpleado">
+    
+    <label for="dni_empleado">DNI Empleado:</label>
+    <input type="text" id="dni_empleado" [(ngModel)]="e1.dni" placeholder="Escriba el DNI">
+
+    <label for="sueldo_empleado">Sueldo Empleado:</label>
+    <input type="text" id="sueldo_empleado" [(ngModel)]="e1.sueldo" placeholder="Escriba el sueldo">
+    <button (click)="altaEmpleado()">Alta Empleado</button>
+</div>

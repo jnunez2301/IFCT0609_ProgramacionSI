@@ -1,0 +1,18 @@
+<form [formGroup]="form" (ngSubmit)="addModAlumno">
+    <label for="ID">ID</label>
+    <input type="number" formControlName="id" id="ID" min="0" required>
+    <label for="nombre">Nombre</label>
+    <input type="text" formControlName="nombre" id="nombre" required>
+    <label for="apellidos">Apellidos</label>
+    <input type="text" formControlName="apellidos" id="apellidos" required>
+    <label for="horasFormacion">Horas Formación</label>
+    <input type="number" formControlName="horasFormacion" id="horasFormacion" min="0" required>
+
+    <label for="mayorDeEdad">¿Mayor de Edad?</label>
+    <input type="checkbox" formControlName="mayorDeEdad" id="mayorDeEdad" required>
+
+
+    <button type="submit" [disabled]="form.invalid">Submit</button>
+
+    
+</form>
